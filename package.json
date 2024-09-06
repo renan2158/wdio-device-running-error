@@ -1,0 +1,23 @@
+{
+  "name": "wdio-running-device-error",
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": "^20.9.0"
+  },
+  "devDependencies": {
+    "@amco-auto/core": "file:../amco-core",
+    "@wdio/allure-reporter": "^9.0.8",
+    "@wdio/appium-service": "^9.0.9",
+    "@wdio/cli": "^9.0.9",
+    "@wdio/local-runner": "^9.0.9",
+    "@wdio/mocha-framework": "^9.0.8",
+    "@wdio/visual-service": "^6.0.0",
+    "appium": "^2.11.3",
+    "appium-uiautomator2-driver": "^3.7.9",
+    "wdio-wait-for": "^3.0.11"
+  },
+  "scripts": {
+    "wdio": "wdio run ./wdio.conf.ts"
+  }
+}

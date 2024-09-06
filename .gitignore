@@ -1,0 +1,25 @@
+# OSX
+.DS_Store
+
+# IntelliJ
+.idea
+
+# VSCode
+.vscode
+.settings
+
+# node.js
+node_modules/
+
+# custom
+apps/
+logs/
+chromeDriver
+.tmp
+*.mp4
+allure-results/
+
+# Lock files
+yarn.lock
+package-lock.json
+pnpm-lock.yaml
