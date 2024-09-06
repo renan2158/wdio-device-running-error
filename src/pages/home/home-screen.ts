@@ -2,11 +2,11 @@ import { driver } from "@wdio/globals";
 
 class HomeScreen {
   async clickLoginButton() {
-    const botaoAbrirModalDeLogin = driver.$(
-      "//android.view.ViewGroup[ends-with(@resource-id, 'action_user')]"
+    const loginButton = driver.$(
+      "//android.view.ViewGroup[ends-with(@resource-id, 'login')]"
     );
 
-    await botaoAbrirModalDeLogin.click();
+    await loginButton.click();
   }
 }
 
