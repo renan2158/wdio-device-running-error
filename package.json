@@ -6,7 +6,6 @@
     "node": "^20.9.0"
   },
   "devDependencies": {
-    "@amco-auto/core": "file:../amco-core",
     "@wdio/allure-reporter": "^9.0.8",
     "@wdio/appium-service": "^9.0.9",
     "@wdio/cli": "^9.0.9",
